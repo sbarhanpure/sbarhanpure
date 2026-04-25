@@ -20,7 +20,7 @@ A prototype that uses AI agents to navigate healthcare claims data on behalf of 
 
 ### fitness-intel
 
-I race bikes. This pulls my ride data from Strava, recovery data from Oura, and weather from Open-Meteo into one place. I ask questions in plain English and get answers grounded in real power and recovery numbers — not generic advice. TypeScript, Supabase, Telegram as the interface. Still private while I get the core right.
+I ride bikes. This pulls my ride data from Strava, recovery data from Oura, and weather from Open-Meteo into one place. I ask questions in plain English and get answers grounded in real power and recovery numbers — not generic advice. TypeScript, Supabase, Telegram as the interface. Still private while I get the core right.
 
 ### cadence
 
