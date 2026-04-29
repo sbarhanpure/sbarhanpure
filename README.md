@@ -10,7 +10,7 @@ I lead engineering at Walmart Health & Benefits Technology. I own two portfolios
 
 At AWS, I built and ran a 50-person engineering organization. We owned the contract management and analytics systems behind roughly 70% of AWS revenue. The work was internal-facing but high-stakes — if it broke, deals stopped moving.
 
-At MTM Health, I was the first data scince and analytics hire. I built the AI and data systems that helped grow the business from $600 million to $900 million in revenue. When I started, there was no data scince engineering team. When I left, there was.
+At MTM Health, I was the first data science and analytics hire. I built the AI and data systems that helped grow the business from $600 million to $900 million in revenue. When I started, there was no data scince engineering team. When I left, there was.
 
 ## What I'm building
 
