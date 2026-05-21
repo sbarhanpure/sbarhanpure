@@ -90,7 +90,7 @@ Side projects. Where I keep my hands in the code and test ideas I can't run insi
 
 **Stack.** TypeScript, Supabase (Postgres + pgvector), Telegram, scheduled syncs on cron.
 
-**Status.** Private while I get the reasoning right. Generic advice backed by personal data is still generic advice — I'd rather it stay narrow and correct.
+**Status.** Multi-tenant, invite-only while I get the reasoning right. Generic advice backed by personal data is still generic advice — I'd rather it stay narrow and correct.
 
 ### cadence
 
