@@ -70,31 +70,31 @@ Built pricing, reporting, and risk frameworks for consumer and commercial financ
 
 ## What I'm building
 
-Side projects. Where I keep my hands in the code and test ideas I can't run inside a large company.
+Side projects. Real products. Where I keep my hands in the code and test ideas I can't run inside a large company.
 
-### member-360-agentic-experience-layer
+### Member360 — the AI advocate for health plan members.
 
-**Problem.** A member gets a denied claim. The actual answer — why it was denied, what to do next — lives in an EDI transaction, a denial code table, the plan design, and a provider billing record. Four systems, four teams, no shared view. The member gets a code that means nothing and a phone tree that leads nowhere.
+Most members get a denied claim and a code that means nothing. The real answer lives in an EDI transaction, a denial code table, the plan design, and a provider billing record — four systems, four teams, no shared view. Member360 reads the 835, maps the denial, checks plan rules, and tells the member in plain English what happened and what to do next. Reasoning is transparent so a non-engineer can read the transcript and verify it.
 
-**Approach.** Agents that reason over claims data instead of scripted bot flows. The agent reads the 835, maps the denial to a plain-English explanation, checks plan rules, and tells the member what to do next. Built so a non-engineer can read the transcript and verify the reasoning.
+**First surface.** Denial Decoder — a free consumer tool at `decoder.member360.ai`.
 
 **Stack.** Python, LangChain, Streamlit (operator view), React (member view).
 
-**Status.** Prototype. The hard part isn't the agent loop — it's the data model that lets the agent answer questions without hallucinating policy.
+**Status.** Live consumer product. Commercial pricing model in development for payer and employer segments. The hard part isn't the agent loop — it's the data model that lets the agent answer without hallucinating policy.
 
-### fitness-intel
+### Fitness Intel — your AI training partner, grounded in your data.
 
-**Problem.** I ride bikes seriously. Training data in Strava, recovery in Oura, weather in Open-Meteo — none of it answers the question I actually want answered: *should I go hard today, and why?* Generic AI fitness advice ignores the data I already have.
-
-**Approach.** Pull everything into one store. Ask in plain English over Telegram. Answers grounded in real numbers — power output, HRV, forecast — not generic coaching language.
+Strava has your training data. Oura has your recovery. Open-Meteo has the weather. None of them answer the question that matters: *should I go hard today, and why?* Generic AI fitness coaches ignore the data you already have. Fitness Intel pulls everything into one store, runs it through a reasoning layer, and answers in plain English over Telegram — power numbers, HRV, the wind forecast, all grounded in real signal.
 
 **Stack.** TypeScript, Supabase (Postgres + pgvector), Telegram, scheduled syncs on cron.
 
 **Status.** Multi-tenant, invite-only while I get the reasoning right. Generic advice backed by personal data is still generic advice — I'd rather it stay narrow and correct.
 
-### cadence
+### Cadence — the AI operations layer for short-term rental hosts.
 
-AI assistant for short-term rental operators. Early stage. The real question is which workflows actually compress with AI versus which ones just look like they should. More when I know.
+STR operators run on duct tape: pricing tools, channel managers, cleaning schedulers, guest comms — different tabs, different logins, no shared brain. Cadence sits on top: an AI assistant that triages messages, flags revenue issues, and handles the recurring decisions that don't need a human. The real question isn't what AI *can* do — it's which workflows actually compress with AI versus which ones just look like they should.
+
+**Status.** Early. More when there's something to show.
 
 ---
 
