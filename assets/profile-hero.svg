@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title description">
-  <title id="title">Sandeep Barhanpure — turning ambiguity into durable systems</title>
-  <desc id="description">A blueprint-inspired diagram showing ambiguity transformed into a system and then an operating standard.</desc>
+  <title id="title">Sandeep Barhanpure — I build the thing, then the system that scales it</title>
+  <desc id="description">A blueprint-inspired diagram showing Sandeep's operating pattern: spot the opportunity, prove it with a real product, and scale it through teams and platforms.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -34,34 +34,43 @@
     <circle cx="1212" cy="143" r="5" fill="#BFE9FF" />
   </g>
 
-  <text x="72" y="68" fill="#B8D9ED" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="3">SANDEEP BARHANPURE  /  EXECUTIVE WHO STILL BUILDS</text>
+  <text x="72" y="68" fill="#B8D9ED" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="3">SANDEEP BARHANPURE  /  PRODUCT · ENGINEERING · AI</text>
 
-  <text x="68" y="151" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">Turning ambiguity into</text>
-  <text x="68" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">durable systems.</text>
-  <rect x="70" y="242" width="442" height="5" rx="2.5" fill="url(#signal)" />
+  <text x="68" y="151" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">I build the thing—</text>
+  <text x="68" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">then the system that scales it.</text>
+  <rect x="70" y="242" width="554" height="5" rx="2.5" fill="url(#signal)" />
 
   <g filter="url(#shadow)">
-    <rect x="68" y="292" width="250" height="82" rx="14" fill="#F5F9FF" />
-    <rect x="366" y="292" width="250" height="82" rx="14" fill="#F5F9FF" />
-    <rect x="664" y="292" width="250" height="82" rx="14" fill="#F5F9FF" />
+    <rect x="68" y="282" width="262" height="100" rx="14" fill="#F5F9FF" />
+    <rect x="366" y="282" width="262" height="100" rx="14" fill="#F5F9FF" />
+    <rect x="664" y="282" width="262" height="100" rx="14" fill="#F5F9FF" />
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="92" y="323" fill="#B84A36" font-size="12" font-weight="700" letter-spacing="2">AMBIGUITY</text>
-    <text x="92" y="350" fill="#173C65" font-size="15" font-weight="600">Find the real opportunity</text>
+    <text x="92" y="314" fill="#B84A36" font-size="12" font-weight="700" letter-spacing="2">SPOT IT</text>
+    <text x="92" y="341" fill="#173C65" font-size="14" font-weight="600">
+      <tspan x="92" dy="0">Find what the org</tspan>
+      <tspan x="92" dy="20">is ignoring</tspan>
+    </text>
 
-    <text x="390" y="323" fill="#8A6418" font-size="12" font-weight="700" letter-spacing="2">SYSTEM</text>
-    <text x="390" y="350" fill="#173C65" font-size="15" font-weight="600">Align product, org &amp; code</text>
+    <text x="390" y="314" fill="#8A6418" font-size="12" font-weight="700" letter-spacing="2">PROVE IT</text>
+    <text x="390" y="341" fill="#173C65" font-size="14" font-weight="600">
+      <tspan x="390" dy="0">Ship the smallest</tspan>
+      <tspan x="390" dy="20">real thing</tspan>
+    </text>
 
-    <text x="688" y="323" fill="#08776D" font-size="12" font-weight="700" letter-spacing="2">STANDARD</text>
-    <text x="688" y="350" fill="#173C65" font-size="15" font-weight="600">Make the result repeatable</text>
+    <text x="688" y="314" fill="#08776D" font-size="12" font-weight="700" letter-spacing="2">SCALE IT</text>
+    <text x="688" y="341" fill="#173C65" font-size="14" font-weight="600">
+      <tspan x="688" dy="0">Build the team</tspan>
+      <tspan x="688" dy="20">and the paved road</tspan>
+    </text>
   </g>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 326 333 H 353" stroke="#FFD166" stroke-width="3" />
-    <path d="M 347 326 L 354 333 L 347 340" stroke="#FFD166" stroke-width="3" />
-    <path d="M 624 333 H 651" stroke="#55D6BE" stroke-width="3" />
-    <path d="M 645 326 L 652 333 L 645 340" stroke="#55D6BE" stroke-width="3" />
+    <path d="M 340 332 H 353" stroke="#FFD166" stroke-width="3" />
+    <path d="M 347 325 L 354 332 L 347 339" stroke="#FFD166" stroke-width="3" />
+    <path d="M 638 332 H 651" stroke="#55D6BE" stroke-width="3" />
+    <path d="M 645 325 L 652 332 L 645 339" stroke="#55D6BE" stroke-width="3" />
   </g>
 
   <g transform="translate(1000 255)">
