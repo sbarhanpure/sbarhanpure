@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://sbarhanpure.com">
-    <img src="./assets/profile-hero.svg" alt="Sandeep Barhanpure — turning ambiguity into durable systems" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="Sandeep Barhanpure — I build the thing, then the system that scales it" width="100%" />
   </a>
 </p>
 
@@ -11,11 +11,11 @@
   <a href="mailto:sandeep@terrainailabs.com">Email</a>
 </p>
 
-I build platforms that let other people build—and ship AI before it is obvious. Over 16 years across Fortune 1 retail, hyperscale cloud, healthcare, and financial services, the pattern has stayed the same: find the under-leveraged opportunity, build the product and organization to capture it, then make the result repeatable.
+I build platforms that let other people build—and ship AI before it is obvious. The through-line across 16 years in Fortune 1 retail, hyperscale cloud, healthcare, and financial services is not a domain. It is a pattern: find the under-leveraged opportunity, build the product or system to capture it, then make it the standard.
 
 Today I lead software engineering portfolios at **Walmart Health & Benefits Technology** and build hands-on at **Terrain AI Labs**. I run organizations. I still write code. Leaders who stop building eventually stop knowing which questions to ask.
 
-## Proof, not adjectives
+## Different industries. Same approach.
 
 <table>
   <tr>
@@ -30,15 +30,15 @@ Today I lead software engineering portfolios at **Walmart Health & Benefits Tech
   </tr>
 </table>
 
-## Products in the wild
+## What I'm building
 
-| Product | The decision it improves | Current reality |
+| Product | What it does | Where it is now |
 | --- | --- | --- |
 | **[Member360](https://member360.ai)**<br />[Product story](https://sbarhanpure.com/products/member360) | Explains what happened after a health claim is adjudicated, who needs to act, and what to do next—without guessing when evidence is missing. | `LIVE PROTOTYPE`<br />Synthetic examples; no member data requested. |
 | **[Ask Niko](https://askniko.ai)**<br />[Product story](https://sbarhanpure.com/products/ask-niko) | Brings Strava activity, Oura or WHOOP recovery, and weather into one evidence-backed daily training conversation. | `CLOSED BETA`<br />Public interactive demo with sample data. |
 | **[Cadence AI](https://www.terrainailabs.com/products/cadence)**<br />[Product story](https://sbarhanpure.com/products/cadence-ai) | Reads across property, pricing, cleaning, and accounting workflows, then prepares the next action for human approval. | `IN DAILY USE`<br />One operating partner; approval before every external write. |
 
-## The path here
+## Where I've built
 
 | | Scope | What changed |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Today I lead software engineering portfolios at **Walmart Health & Benefits Tech
 | **MTM Health**<br />2015–2021 | First data hire → engineering and analytics leader | Built a 30-person organization, real-time operations systems, and the company's first commercial SaaS product. |
 | **RBL Bank**<br />2010–2013 | Pricing & Operations | Created pricing, reporting, and risk frameworks that became institutional operating standards. |
 
-## How I build
+## How I operate
 
 - **Find the opportunity nobody owns.** The best work often starts in the whitespace between the org chart and the customer problem.
 - **Write the product narrative before the specification.** If the user, pain, and changed behavior are unclear, the work is not ready.
@@ -55,14 +55,14 @@ Today I lead software engineering portfolios at **Walmart Health & Benefits Tech
 - **Treat architecture as bets about what will not change.** Keep everything else cheap to revise.
 - **Build paved roads, not toll booths.** Standards should increase safe throughput, not centralize control.
 
-## Open workbench
+## Still building in public
 
 | Repository | What it explores |
 | --- | --- |
 | **[headroom](https://github.com/sbarhanpure/headroom)** | Compresses tool output, logs, files, and retrieval context before they reach an LLM. |
 | **[graphify](https://github.com/sbarhanpure/graphify)** | Turns code, schemas, documents, images, and video into a queryable knowledge graph. |
 
-## Systems I work in
+## Tools I reach for
 
 **Product & AI** · Agentic systems · RAG · evals · human-in-the-loop workflows · enterprise SaaS<br />
 **Engineering** · Python · TypeScript · React · Node.js · PostgreSQL · event and data platforms<br />
