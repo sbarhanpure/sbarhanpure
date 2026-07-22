@@ -72,33 +72,29 @@ Built pricing, reporting, and risk frameworks for consumer and commercial financ
 
 Real products. Where I keep my hands in the code and test ideas I can't run inside a large company.
 
-### Member360 — the AI advocate for health plan members.
+### [Member360](https://sbarhanpure.com/products/member360) — the AI advocate for health plan members.
 
-Most members get a denied claim and a code that means nothing. The real answer lives across an EDI 835 transaction, a denial code table, the plan design, and a provider billing record — four systems, four teams, no shared view. Member360 reads the 835, maps the denial, checks plan rules, and tells the member in plain English what happened and what to do next. The reasoning is transparent — a non-engineer can read the transcript and verify it.
+A denied or confusing claim should come with a clear next step. Member360 explains what happened after a claim is adjudicated, who needs to act, which plan rule applies, what the member may owe, and what to do next. It uses exact code mapping and named plan-rule sources—and stops instead of guessing when the evidence is missing.
 
-**First surface.** Denial Decoder — a free consumer tool at [`decoder.member360.ai`](https://decoder.member360.ai).
+**Explore.** [Try Member360](https://member360.ai) · [Read the product story](https://sbarhanpure.com/products/member360)
 
-**Stack.** Python, LangChain, Streamlit (operator view), React (member view).
+**Status.** Live public prototype using synthetic examples. It does not ask visitors to submit member data; payer integrations and production EDI 835 ingestion remain future work.
 
-**Status.** Live consumer product. Commercial pricing model in development for payer and employer segments. The hard part isn't the agent loop — it's the data model that lets the agent answer without hallucinating policy.
+### [Ask Niko](https://sbarhanpure.com/products/ask-niko) — an AI endurance coach grounded in your data.
 
-### Fitness Intel — agentic AI for endurance coaching.
+Activity, recovery, and weather live in separate apps. Ask Niko brings Strava history, Oura or WHOOP recovery, and training-time weather into one conversation so cyclists and runners can ask what to do today—and see the personal data behind the answer.
 
-Serious endurance athletes already have more data than they can use. Strava tracks the training, Oura or Whoop tracks the recovery, Garmin tracks the ride, the weather app tracks the forecast — and none of them answer the question that actually matters at 5 AM: *what do I do today, and why?*
+**Explore.** [Try Ask Niko](https://askniko.ai) · [Read the product story](https://sbarhanpure.com/products/ask-niko)
 
-Fitness Intel is a coach in your pocket. Specialized agents reason across training load (TSS, CTL, ATL, form), recovery state (HRV, resting HR, sleep), and the day ahead (weather, schedule, terrain) to produce one defensible recommendation — not a static plan, not generic coaching language. Every suggestion shows the signals behind it: *"Z2 for 90 minutes today. CTL is climbing, HRV dropped 12% overnight, and you have intervals scheduled Thursday. Save the load."*
+**Status.** Closed beta, invite only, with a public interactive demo using sample data. Live integrations include Strava, Oura or WHOOP, and Open-Meteo.
 
-Built for amateurs who already live in TrainingPeaks or intervals.icu and want a coach that integrates the data instead of ignoring it. Interface is Telegram — because that's where you are at 5 AM, not a dashboard.
+### [Cadence AI](https://sbarhanpure.com/products/cadence-ai) — the operations layer for short-term-rental managers.
 
-**Stack.** TypeScript, Supabase (Postgres + pgvector), agent orchestration, Telegram bot, scheduled syncs on cron.
+Cadence is a Telegram-based operations assistant for managers of 5–25 short-term-rental units. It reads across property, pricing, cleaning, and accounting workflows, surfaces what needs attention, drafts the next step, and waits for approval before writing back.
 
-**Status.** Multi-tenant, invite-only while the reasoning layer matures. Generic advice backed by personal data is still generic advice — I'd rather it stay narrow and correct.
+**Explore.** [See Cadence at Terrain AI Labs](https://www.terrainailabs.com/products/cadence) · [Read the product story](https://sbarhanpure.com/products/cadence-ai)
 
-### Cadence — the AI operations layer for short-term rental hosts.
-
-STR operators run on duct tape: pricing tools, channel managers, cleaning schedulers, guest comms — different tabs, different logins, no shared brain. Cadence sits on top: an AI assistant that triages messages, flags revenue issues, and handles the recurring decisions that don't need a human. The real question isn't what AI *can* do — it's which workflows actually compress with AI versus which ones just look like they should.
-
-**Status.** Early. More when there's something to show.
+**Status.** In daily use with one operating partner, with human approval before every external write.
 
 ---
 
