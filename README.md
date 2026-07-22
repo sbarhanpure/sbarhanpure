@@ -55,13 +55,6 @@ Today I lead software engineering portfolios at **Walmart Health & Benefits Tech
 - **Treat architecture as bets about what will not change.** Keep everything else cheap to revise.
 - **Build paved roads, not toll booths.** Standards should increase safe throughput, not centralize control.
 
-## Still building in public
-
-| Repository | What it explores |
-| --- | --- |
-| **[headroom](https://github.com/sbarhanpure/headroom)** | Compresses tool output, logs, files, and retrieval context before they reach an LLM. |
-| **[graphify](https://github.com/sbarhanpure/graphify)** | Turns code, schemas, documents, images, and video into a queryable knowledge graph. |
-
 ## Tools I reach for
 
 **Product & AI** · Agentic systems · RAG · evals · human-in-the-loop workflows · enterprise SaaS<br />
