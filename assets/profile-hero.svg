@@ -1,86 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title description">
-  <title id="title">Sandeep Barhanpure — I build the thing, then the system that scales it</title>
-  <desc id="description">A blueprint-inspired diagram showing Sandeep's operating pattern: spot the opportunity, prove it with a real product, and scale it through teams and platforms.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
+  <title id="t">Sandeep Barhanpure — build the thing, then the system that scales it</title>
+  <desc id="d">A dark terminal banner. Topographic contour rings breathe on the right while a point field drifts; on the left a shell prompt types the three-step loop: build the thing, scale the system, repeat.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#102A52" />
-      <stop offset="0.58" stop-color="#153F6D" />
-      <stop offset="1" stop-color="#0C625F" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1416"/>
+      <stop offset="1" stop-color="#15231A"/>
     </linearGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FF9A7A" />
-      <stop offset="0.54" stop-color="#FFD166" />
-      <stop offset="1" stop-color="#55D6BE" />
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#EAF3FF" stroke-width="1" opacity="0.075" />
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DDF7A4" stroke-width="0.6" opacity="0.07"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#06172E" flood-opacity="0.28" />
-    </filter>
+    <clipPath id="frame"><rect width="1280" height="420" rx="24"/></clipPath>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#DDF7A4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#DDF7A4" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    </style>
   </defs>
 
-  <rect width="1280" height="420" rx="28" fill="url(#background)" />
-  <rect width="1280" height="420" rx="28" fill="url(#grid)" />
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <circle cx="990" cy="210" r="260" fill="url(#glow)"/>
 
-  <g opacity="0.18" fill="none" stroke="#BFE9FF">
-    <path d="M 1010 42 C 1090 72 1088 142 1168 167 S 1248 265 1196 338" />
-    <path d="M 1074 24 C 1148 78 1136 117 1212 143" />
-    <circle cx="1010" cy="42" r="5" fill="#BFE9FF" />
-    <circle cx="1168" cy="167" r="5" fill="#BFE9FF" />
-    <circle cx="1196" cy="338" r="5" fill="#BFE9FF" />
-    <circle cx="1074" cy="24" r="5" fill="#BFE9FF" />
-    <circle cx="1212" cy="143" r="5" fill="#BFE9FF" />
-  </g>
+    <!-- point field, drifting slowly -->
+    <g fill="#DDF7A4" opacity="0.55">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -14 6; 0 0" dur="14s" repeatCount="indefinite"/>
+      <circle cx="760" cy="70" r="1.6"/><circle cx="820" cy="120" r="1.2"/><circle cx="905" cy="48" r="1.4"/><circle cx="1060" cy="90" r="1.1"/>
+      <circle cx="1180" cy="60" r="1.5"/><circle cx="1230" cy="150" r="1.2"/><circle cx="1210" cy="300" r="1.6"/><circle cx="1120" cy="372" r="1.3"/>
+      <circle cx="980" cy="392" r="1.1"/><circle cx="850" cy="350" r="1.5"/><circle cx="780" cy="260" r="1.2"/><circle cx="1250" cy="230" r="1.0"/>
+      <circle cx="1150" cy="20" r="1.2"/><circle cx="900" cy="330" r="1.0"/><circle cx="1040" cy="395" r="1.3"/><circle cx="740" cy="170" r="1.1"/>
+    </g>
+    <g fill="#8AA39B" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 10 -8; 0 0" dur="19s" repeatCount="indefinite"/>
+      <circle cx="800" cy="200" r="1.3"/><circle cx="1100" cy="260" r="1.4"/><circle cx="1000" cy="140" r="1.1"/><circle cx="1180" cy="200" r="1.2"/>
+      <circle cx="880" cy="240" r="1.0"/><circle cx="1240" cy="380" r="1.3"/><circle cx="960" cy="20" r="1.2"/><circle cx="1070" cy="330" r="1.1"/>
+    </g>
 
-  <text x="72" y="68" fill="#B8D9ED" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="3">SANDEEP BARHANPURE  /  PRODUCT · ENGINEERING · AI</text>
+    <!-- contour rings: the Terrain mark, breathing -->
+    <g fill="none" stroke="#DDF7A4" stroke-width="1.6" stroke-linecap="round" transform="translate(990 210)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.035;1" dur="6s" repeatCount="indefinite"/>
+        <path d="M0-150C88-150 150-53 132 44 114 124 34 162-52 118-131 78-158-20-105-90-78-125-35-150 0-150Z" opacity="0.9">
+          <animate attributeName="stroke-dashoffset" from="0" to="-900" dur="40s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.9;0.45;0.9" dur="6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="6s" begin="0.6s" repeatCount="indefinite"/>
+        <path d="M0-97C62-97 106-27 80 35 62 88 8 106-45 70-91 35-102-18-67-53-49-73-24-97 0-97Z" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;0.4;0.8" dur="6s" begin="0.6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.09;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+        <path d="M0-44C35-44 62-9 36 26 10 61-35 35-35 0-35-26-18-44 0-44Z" opacity="0.95">
+          <animate attributeName="opacity" values="0.95;0.5;0.95" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <circle r="3" fill="#DDF7A4">
+        <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <!-- a survey line sweeping the rings -->
+      <line x1="0" y1="0" x2="0" y2="-150" stroke="#DDF7A4" stroke-width="0.8" opacity="0.35">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+      </line>
+    </g>
 
-  <text x="68" y="151" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">I build the thing—</text>
-  <text x="68" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">then the system that scales it.</text>
-  <rect x="70" y="242" width="554" height="5" rx="2.5" fill="url(#signal)" />
+    <!-- terminal -->
+    <text x="64" y="66" class="mono" fill="#8AA39B" font-size="14" letter-spacing="3">SANDEEP BARHANPURE  ·  PRODUCT · ENGINEERING · AI</text>
 
-  <g filter="url(#shadow)">
-    <rect x="68" y="282" width="262" height="100" rx="14" fill="#F5F9FF" />
-    <rect x="366" y="282" width="262" height="100" rx="14" fill="#F5F9FF" />
-    <rect x="664" y="282" width="262" height="100" rx="14" fill="#F5F9FF" />
-  </g>
+    <text x="64" y="140" class="sans" fill="#F3EFE6" font-size="50" font-weight="700" letter-spacing="-1.5">Build the thing.</text>
+    <text x="64" y="196" class="sans" fill="#F3EFE6" font-size="50" font-weight="700" letter-spacing="-1.5">Then the system that scales it.</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="92" y="314" fill="#B84A36" font-size="12" font-weight="700" letter-spacing="2">SPOT IT</text>
-    <text x="92" y="341" fill="#173C65" font-size="14" font-weight="600">
-      <tspan x="92" dy="0">Find what the org</tspan>
-      <tspan x="92" dy="20">is ignoring</tspan>
-    </text>
+    <g class="mono" font-size="17" fill="#DDF7A4">
+      <text x="64" y="258" fill="#8AA39B">$</text>
+      <text x="84" y="258">whoami</text>
+      <text x="64" y="284" fill="#B9C6BF" font-size="16">director of engineering by day · founder, Terrain AI Labs by night</text>
 
-    <text x="390" y="314" fill="#8A6418" font-size="12" font-weight="700" letter-spacing="2">PROVE IT</text>
-    <text x="390" y="341" fill="#173C65" font-size="14" font-weight="600">
-      <tspan x="390" dy="0">Ship the smallest</tspan>
-      <tspan x="390" dy="20">real thing</tspan>
-    </text>
+      <text x="64" y="322" fill="#8AA39B">$</text>
+      <!-- typed loop: the three commands cycle -->
+      <text x="84" y="322">
+        <tspan>./build --thing</tspan>
+        <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.3;0.34;0.6;0.66;0.9;0.96;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <text x="84" y="322" opacity="0">
+        <tspan>./scale --system</tspan>
+        <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.3;0.34;0.36;0.6;0.66;0.9;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <text x="84" y="322" opacity="0">
+        <tspan>while true; do ship; done</tspan>
+        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.3;0.34;0.36;0.6;0.66;0.68;0.96;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <rect x="64" y="340" width="10" height="18" fill="#DDF7A4">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <text x="82" y="355" fill="#8AA39B" font-size="15">16 yrs · Fortune 1 retail · hyperscale cloud · healthcare · fintech</text>
+    </g>
 
-    <text x="688" y="314" fill="#08776D" font-size="12" font-weight="700" letter-spacing="2">SCALE IT</text>
-    <text x="688" y="341" fill="#173C65" font-size="14" font-weight="600">
-      <tspan x="688" dy="0">Build the team</tspan>
-      <tspan x="688" dy="20">and the paved road</tspan>
-    </text>
-  </g>
-
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 340 332 H 353" stroke="#FFD166" stroke-width="3" />
-    <path d="M 347 325 L 354 332 L 347 339" stroke="#FFD166" stroke-width="3" />
-    <path d="M 638 332 H 651" stroke="#55D6BE" stroke-width="3" />
-    <path d="M 645 325 L 652 332 L 645 339" stroke="#55D6BE" stroke-width="3" />
-  </g>
-
-  <g transform="translate(1000 255)">
-    <circle cx="90" cy="80" r="74" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.18" />
-    <circle cx="90" cy="80" r="48" fill="none" stroke="#55D6BE" stroke-width="2" opacity="0.65" />
-    <circle cx="90" cy="80" r="8" fill="#FFD166" />
-    <circle cx="90" cy="6" r="5" fill="#FF9A7A" />
-    <circle cx="164" cy="80" r="5" fill="#55D6BE" />
-    <circle cx="90" cy="154" r="5" fill="#55D6BE" />
-    <circle cx="16" cy="80" r="5" fill="#FF9A7A" />
-    <path d="M 90 14 V 72 M 98 80 H 156 M 90 88 V 146 M 24 80 H 82" stroke="#D7F4F0" stroke-width="2" opacity="0.5" />
+    <!-- status chips -->
+    <g class="mono" font-size="12" letter-spacing="1.5">
+      <rect x="64" y="378" width="132" height="24" rx="12" fill="#DDF7A4" opacity="0.14"/>
+      <text x="80" y="394" fill="#DDF7A4">SHIPPING AI</text>
+      <rect x="206" y="378" width="190" height="24" rx="12" fill="#DDF7A4" opacity="0.14"/>
+      <text x="222" y="394" fill="#DDF7A4">STILL WRITES CODE</text>
+      <rect x="406" y="378" width="176" height="24" rx="12" fill="#DDF7A4" opacity="0.14"/>
+      <text x="422" y="394" fill="#DDF7A4">BENTONVILLE, AR</text>
+    </g>
   </g>
 </svg>
